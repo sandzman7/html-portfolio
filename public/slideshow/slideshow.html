@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="carousel">
+       <button class="carousel__button carousel__button--left is-hidden">
+        <img src="images/left-svgrepo-com.svg" alt="">
+       </button>
+
+       <div class="carousel__track-container">
+        <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+                <img src="images/photo-1525609004556-c46c7d6cf023.avif" alt="">
+            </li>
+            <li class="carousel__slide">
+                <img src="images/photo-1544829099-b9a0c07fad1a.avif" alt="">
+            </li>
+            <li class="carousel__slide">
+                <img src="images/photo-1602777924012-f8664ffeed27.avif" alt="">
+            </li>
+        </ul>
+       </div>
+       <button class="carousel__button carousel__button--right">
+        <img src="images/right-3-svgrepo-com.svg" alt="">
+       </button>
+
+       <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
